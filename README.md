@@ -11,12 +11,13 @@ A deep learning project for binary sentiment classification of IMDb movie review
 | **Improvement** | **+6% with LSTM** |
 
 ## 🗂️ Project Structure
-- **data.py** # Data loading, preprocessing, vocabulary building, and DataLoaders
-- **model.py** # RNN/LSTM model architecture with configurable cell types
-- **trainer.py** # Training loop with progress bars, loss tracking, and model checkpointing
-- **main.py** # Train both models, compare results, and generate visualizations
-- **best_model.pt** # Saved best model checkpoint (generated after training)
-- **rnn_vs_lstm_comparison.png**  # Comparision between RNN and LSTM models (generated after training)
+- **data.py**  Data loading, preprocessing, vocabulary building, and DataLoaders
+- **model.py**  RNN/LSTM model architecture with configurable cell types
+- **trainer.py**  Training loop with progress bars, loss tracking, and model checkpointing
+- **main.py**  Train both models, compare results, and generate visualizations
+- **best_model.pt**  Saved best model checkpoint (generated after training)
+- **rnn_vs_lstm_comparison.png**  Comparision between RNN and LSTM models (generated after training)
+- **aclimdb**  Download aclImdb_v1.tar.gz from [here](https://ai.stanford.edu/~amaas/data/sentiment/) and extract the file in the same directory as the project .py files.
 
 
 ## ✨ Features
