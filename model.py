@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 
+
 class SentimentRNN(nn.Module):
     def __init__(self, vocab_size, embed_size, hidden_size, num_layers, dropout, pad_idx, cell_type):
         super().__init__()
