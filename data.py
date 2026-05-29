@@ -5,7 +5,6 @@ from pathlib import Path
 from collections import Counter
 import re
 
-
 PAD_TOKEN = "<pad>"
 UNK_TOKEN = "<unk>"
 

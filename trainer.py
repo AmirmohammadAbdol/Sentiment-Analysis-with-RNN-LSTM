@@ -2,7 +2,6 @@ import torch
 from torch import nn
 from tqdm import tqdm
 
-
 class Trainer:
     def __init__(self, model, train_loader, val_loader, device, lr=0.001):
         self.model = model

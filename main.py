@@ -4,7 +4,6 @@ from model import SentimentRNN
 from trainer import Trainer
 import matplotlib.pyplot as plt
 
-
 def train_and_evaluate(cell_type, data_dir, batch_size=64, embed_size=100, hidden_size=128, num_layers=2, dropout=0.5, num_epochs=10):
     print(f"\n{'='*50}")
     print(f"Training {cell_type.upper()} model")
